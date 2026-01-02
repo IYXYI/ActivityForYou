@@ -1,0 +1,101 @@
+{
+  "city": "marseille",
+  "generated_at": "2025-01-02T10:00:00Z",
+  "weather": {
+    "temperature": 12,
+    "condition": "sunny",
+    "description": "Clear sky",
+    "wind_speed_kmh": 8.0,
+    "icon": "01d"
+  },
+  "context": {
+    "time_of_day": "afternoon",
+    "day_type": "weekday"
+  },
+  "recommendations": [
+    {
+      "name": "beach",
+      "score": 88,
+      "description": "Relax and swim at the beach",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 85,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity"
+      ]
+    },
+    {
+      "name": "park_walk",
+      "score": 82,
+      "description": "Stroll through a scenic park",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity"
+      ]
+    },
+    {
+      "name": "picnic",
+      "score": 80,
+      "description": "Enjoy outdoor meal with friends",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Temperature (12°C) is manageable"
+      ]
+    },
+    {
+      "name": "hiking",
+      "score": 78,
+      "description": "Explore nature trails",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities"
+      ]
+    },
+    {
+      "name": "tennis",
+      "score": 75,
+      "description": "Play tennis with friends",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 70,
+      "description": "Relax at a cozy café",
+      "reasons": [
+        "Nice outdoor weather"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 68,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Good afternoon activity"
+      ]
+    },
+    {
+      "name": "running",
+      "score": 65,
+      "description": "Morning or evening jog",
+      "reasons": [
+        "Temperature (12°C) is good for running"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 55,
+      "description": "Watch a movie",
+      "reasons": [
+        "Nice weather available outside"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "city": "new_york",
+  "generated_at": "2025-01-02T10:00:00Z",
+  "weather": {
+    "temperature": 2,
+    "condition": "rainy",
+    "description": "Light snow",
+    "wind_speed_kmh": 20.0,
+    "icon": "13d"
+  },
+  "context": {
+    "time_of_day": "evening",
+    "day_type": "weekday"
+  },
+  "recommendations": [
+    {
+      "name": "cinema",
+      "score": 90,
+      "description": "Watch a movie",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Popular evening activity"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 88,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Popular evening activity"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 86,
+      "description": "Relax at a cozy café",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "museum",
+      "score": 84,
+      "description": "Explore art and culture",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "gaming",
+      "score": 82,
+      "description": "Video games or board games",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "reading",
+      "score": 80,
+      "description": "Read at home or library",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Perfect for cold winter evening"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 65,
+      "description": "Yoga session",
+      "reasons": [
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "park_walk",
+      "score": 15,
+      "description": "Stroll through a scenic park",
+      "reasons": [
+        "Rainy weather reduces outdoor activities",
+        "Very cold (2°C)"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 10,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Rainy weather reduces outdoor activities",
+        "Very cold (2°C)"
+      ]
+    },
+    {
+      "name": "beach",
+      "score": 5,
+      "description": "Relax and swim at the beach",
+      "reasons": [
+        "Rainy weather reduces outdoor activities",
+        "Very cold (2°C) for water activities"
+      ]
+    }
+  ]
+}

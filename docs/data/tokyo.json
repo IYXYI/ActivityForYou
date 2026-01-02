@@ -1,0 +1,104 @@
+{
+  "city": "tokyo",
+  "generated_at": "2025-01-02T10:00:00Z",
+  "weather": {
+    "temperature": 5,
+    "condition": "cloudy",
+    "description": "Overcast",
+    "wind_speed_kmh": 10.0,
+    "icon": "04d"
+  },
+  "context": {
+    "time_of_day": "afternoon",
+    "day_type": "weekend"
+  },
+  "recommendations": [
+    {
+      "name": "museum",
+      "score": 82,
+      "description": "Explore art and culture",
+      "reasons": [
+        "Indoor activity preferred for cloudy weather",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 80,
+      "description": "Relax at a cozy café",
+      "reasons": [
+        "Indoor activity preferred for cloudy weather",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 78,
+      "description": "Watch a movie",
+      "reasons": [
+        "Indoor activity preferred for cloudy weather",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 76,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "gaming",
+      "score": 75,
+      "description": "Video games or board games",
+      "reasons": [
+        "Indoor activity preferred for cloudy weather",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 68,
+      "description": "Yoga session",
+      "reasons": [
+        "Good weekend activity"
+      ]
+    },
+    {
+      "name": "park_walk",
+      "score": 55,
+      "description": "Stroll through a scenic park",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (5°C)"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 50,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (5°C)"
+      ]
+    },
+    {
+      "name": "hiking",
+      "score": 45,
+      "description": "Explore nature trails",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (5°C)"
+      ]
+    },
+    {
+      "name": "swimming",
+      "score": 25,
+      "description": "Swim at a pool or beach",
+      "reasons": [
+        "Cold (5°C) for water activities"
+      ]
+    }
+  ]
+}

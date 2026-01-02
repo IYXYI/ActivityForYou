@@ -1,0 +1,109 @@
+{
+  "city": "sydney",
+  "generated_at": "2025-01-02T10:00:00Z",
+  "weather": {
+    "temperature": 26,
+    "condition": "sunny",
+    "description": "Clear sky",
+    "wind_speed_kmh": 14.0,
+    "icon": "01d"
+  },
+  "context": {
+    "time_of_day": "afternoon",
+    "day_type": "weekend"
+  },
+  "recommendations": [
+    {
+      "name": "beach",
+      "score": 95,
+      "description": "Relax and swim at the beach",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Hot weather (26°C) perfect for water activities",
+        "Great afternoon activity",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "swimming",
+      "score": 93,
+      "description": "Swim at a pool or beach",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Hot weather (26°C) perfect for water activities",
+        "Great afternoon activity"
+      ]
+    },
+    {
+      "name": "picnic",
+      "score": 88,
+      "description": "Enjoy outdoor meal with friends",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 85,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "hiking",
+      "score": 80,
+      "description": "Explore nature trails",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "tennis",
+      "score": 78,
+      "description": "Play tennis with friends",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "park_walk",
+      "score": 75,
+      "description": "Stroll through a scenic park",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 72,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "gaming",
+      "score": 55,
+      "description": "Video games or board games",
+      "reasons": [
+        "Nice weather available outside"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 50,
+      "description": "Watch a movie",
+      "reasons": [
+        "Nice weather available outside"
+      ]
+    }
+  ]
+}

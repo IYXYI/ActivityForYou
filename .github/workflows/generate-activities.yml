@@ -1,0 +1,44 @@
+name: Generate Activity Recommendations
+
+on:
+  schedule:
+    # Run at 06:00 UTC every day
+    - cron: '0 6 * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  generate-activities:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Generate activity recommendations
+        env:
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+        run: python scripts/generate_activities.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/data/*.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update activity recommendations"
+            git push
+          fi

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity For You - Smart Activity Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Activity For You</h1>
+            <p class="subtitle">Get personalized activity suggestions based on weather</p>
+        </header>
+
+        <main>
+            <div class="controls">
+                <div class="city-selector">
+                    <label for="city-select">Select a city:</label>
+                    <select id="city-select">
+                        <option value="">-- Choose a city --</option>
+                        <option value="paris">Paris 🇫🇷</option>
+                        <option value="lyon">Lyon 🇫🇷</option>
+                        <option value="marseille">Marseille 🇫🇷</option>
+                        <option value="tokyo">Tokyo 🇯🇵</option>
+                        <option value="new_york">New York 🇺🇸</option>
+                        <option value="sydney">Sydney 🇦🇺</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Loading recommendations...</p>
+            </div>
+
+            <div id="error-message" class="error-message hidden"></div>
+
+            <div id="weather-card" class="weather-card hidden">
+                <div class="weather-content">
+                    <h2 id="city-name"></h2>
+                    <div class="weather-info">
+                        <div class="weather-main">
+                            <img id="weather-icon" src="" alt="Weather icon" class="weather-icon">
+                            <div class="weather-details">
+                                <p id="temperature" class="temperature"></p>
+                                <p id="condition" class="condition"></p>
+                                <p id="wind" class="wind"></p>
+                            </div>
+                        </div>
+                        <div class="context-info">
+                            <span id="time-of-day" class="context-badge"></span>
+                            <span id="day-type" class="context-badge"></span>
+                        </div>
+                    </div>
+                    <p id="last-updated" class="last-updated"></p>
+                </div>
+            </div>
+
+            <div id="recommendations" class="recommendations-container hidden">
+                <h3>Top Activity Recommendations</h3>
+                <div id="activities-list" class="activities-list"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Weather data updates daily via GitHub Actions | Powered by OpenWeatherMap API</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+{
+  "city": "lyon",
+  "generated_at": "2025-01-02T10:00:00Z",
+  "weather": {
+    "temperature": 6,
+    "condition": "rainy",
+    "description": "Light rain",
+    "wind_speed_kmh": 15.0,
+    "icon": "10d"
+  },
+  "context": {
+    "time_of_day": "afternoon",
+    "day_type": "weekday"
+  },
+  "recommendations": [
+    {
+      "name": "cinema",
+      "score": 88,
+      "description": "Watch a movie",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Rainy weather reduces outdoor activities"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 87,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Rainy weather reduces outdoor activities"
+      ]
+    },
+    {
+      "name": "museum",
+      "score": 85,
+      "description": "Explore art and culture",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Rainy weather reduces outdoor activities"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 83,
+      "description": "Relax at a cozy café",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "gaming",
+      "score": 81,
+      "description": "Video games or board games",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Rainy weather reduces outdoor activities"
+      ]
+    },
+    {
+      "name": "reading",
+      "score": 79,
+      "description": "Read at home or library",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Rainy weather reduces outdoor activities"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 68,
+      "description": "Yoga session",
+      "reasons": [
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "park_walk",
+      "score": 25,
+      "description": "Stroll through a scenic park",
+      "reasons": [
+        "Rainy weather reduces outdoor activities"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 20,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Rainy weather reduces outdoor activities"
+      ]
+    },
+    {
+      "name": "beach",
+      "score": 5,
+      "description": "Relax and swim at the beach",
+      "reasons": [
+        "Rainy weather reduces outdoor activities",
+        "Cold (6°C) for water activities"
+      ]
+    }
+  ]
+}

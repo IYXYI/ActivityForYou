@@ -1,0 +1,106 @@
+{
+  "city": "paris",
+  "generated_at": "2025-01-02T10:00:00Z",
+  "weather": {
+    "temperature": 8,
+    "condition": "cloudy",
+    "description": "Mostly cloudy",
+    "wind_speed_kmh": 12.0,
+    "icon": "02d"
+  },
+  "context": {
+    "time_of_day": "morning",
+    "day_type": "weekday"
+  },
+  "recommendations": [
+    {
+      "name": "cafe",
+      "score": 85,
+      "description": "Relax at a cozy café",
+      "reasons": [
+        "Indoor activity preferred for cloudy weather",
+        "Popular morning activity",
+        "Ideal for a weekday start"
+      ]
+    },
+    {
+      "name": "museum",
+      "score": 80,
+      "description": "Explore art and culture",
+      "reasons": [
+        "Indoor activity preferred for cloudy weather",
+        "Great cultural experience"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 78,
+      "description": "Yoga session",
+      "reasons": [
+        "Ideal morning activity",
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "running",
+      "score": 75,
+      "description": "Morning or evening jog",
+      "reasons": [
+        "Ideal morning activity",
+        "Temperature (8°C) is manageable"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 72,
+      "description": "Watch a movie",
+      "reasons": [
+        "Indoor activity preferred for cloudy weather",
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "park_walk",
+      "score": 55,
+      "description": "Stroll through a scenic park",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (8°C)"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 50,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (8°C)"
+      ]
+    },
+    {
+      "name": "tennis",
+      "score": 48,
+      "description": "Play tennis with friends",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal"
+      ]
+    },
+    {
+      "name": "reading",
+      "score": 45,
+      "description": "Read at home or library",
+      "reasons": [
+        "Indoor activity preferred for cloudy weather"
+      ]
+    },
+    {
+      "name": "beach",
+      "score": 25,
+      "description": "Relax and swim at the beach",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cold (8°C) for water activities"
+      ]
+    }
+  ]
+}
