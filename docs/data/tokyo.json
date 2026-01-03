@@ -1,103 +1,100 @@
 {
   "city": "tokyo",
-  "generated_at": "2025-01-02T10:00:00Z",
+  "generated_at": "2026-01-03T06:37:12.191365Z",
   "weather": {
     "temperature": 5,
     "condition": "cloudy",
     "description": "Overcast",
-    "wind_speed_kmh": 10.0,
-    "icon": "04d"
+    "wind_speed_kmh": 10
   },
   "context": {
-    "time_of_day": "afternoon",
+    "time_of_day": "morning",
     "day_type": "weekend"
   },
   "recommendations": [
     {
-      "name": "museum",
-      "score": 82,
-      "description": "Explore art and culture",
+      "name": "running",
+      "score": 100,
+      "description": "Morning or evening jog",
       "reasons": [
-        "Indoor activity preferred for cloudy weather",
-        "Perfect weekend activity"
-      ]
-    },
-    {
-      "name": "cafe",
-      "score": 80,
-      "description": "Relax at a cozy café",
-      "reasons": [
-        "Indoor activity preferred for cloudy weather",
-        "Perfect weekend activity"
-      ]
-    },
-    {
-      "name": "cinema",
-      "score": 78,
-      "description": "Watch a movie",
-      "reasons": [
-        "Indoor activity preferred for cloudy weather",
-        "Perfect weekend activity"
+        "Ideal morning activity"
       ]
     },
     {
       "name": "restaurant",
-      "score": 76,
+      "score": 90,
       "description": "Dine at a local restaurant",
       "reasons": [
         "Perfect weekend activity"
       ]
     },
     {
-      "name": "gaming",
-      "score": 75,
-      "description": "Video games or board games",
+      "name": "cinema",
+      "score": 85,
+      "description": "Watch a movie",
       "reasons": [
-        "Indoor activity preferred for cloudy weather",
         "Perfect weekend activity"
       ]
     },
     {
       "name": "yoga",
-      "score": 68,
+      "score": 85,
       "description": "Yoga session",
       "reasons": [
-        "Good weekend activity"
+        "Ideal morning activity"
       ]
     },
     {
-      "name": "park_walk",
-      "score": 55,
-      "description": "Stroll through a scenic park",
+      "name": "tennis",
+      "score": 75,
+      "description": "Play tennis with friends",
       "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (5°C)"
-      ]
-    },
-    {
-      "name": "cycling",
-      "score": 50,
-      "description": "Ride through the city or countryside",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (5°C)"
+        "Suitable for current weather"
       ]
     },
     {
       "name": "hiking",
-      "score": 45,
+      "score": 70,
       "description": "Explore nature trails",
       "reasons": [
         "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (5°C)"
+        "Cool temperature (5\u00b0C)",
+        "Perfect weekend activity"
       ]
     },
     {
-      "name": "swimming",
-      "score": 25,
-      "description": "Swim at a pool or beach",
+      "name": "gaming",
+      "score": 70,
+      "description": "Video games or board games",
       "reasons": [
-        "Cold (5°C) for water activities"
+        "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "picnic",
+      "score": 65,
+      "description": "Enjoy outdoor meal with friends",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (5\u00b0C)",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "museum",
+      "score": 65,
+      "description": "Explore art and culture",
+      "reasons": [
+        "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 60,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (5\u00b0C)"
       ]
     }
   ]

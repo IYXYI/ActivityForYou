@@ -1,98 +1,99 @@
 {
   "city": "marseille",
-  "generated_at": "2025-01-02T10:00:00Z",
+  "generated_at": "2026-01-03T06:37:12.191101Z",
   "weather": {
     "temperature": 12,
     "condition": "sunny",
     "description": "Clear sky",
-    "wind_speed_kmh": 8.0,
-    "icon": "01d"
+    "wind_speed_kmh": 8
   },
   "context": {
-    "time_of_day": "afternoon",
-    "day_type": "weekday"
+    "time_of_day": "morning",
+    "day_type": "weekend"
   },
   "recommendations": [
     {
-      "name": "beach",
-      "score": 88,
-      "description": "Relax and swim at the beach",
+      "name": "hiking",
+      "score": 100,
+      "description": "Explore nature trails",
       "reasons": [
         "Perfect sunny weather for outdoor activities",
-        "Great afternoon activity"
-      ]
-    },
-    {
-      "name": "cycling",
-      "score": 85,
-      "description": "Ride through the city or countryside",
-      "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Great afternoon activity"
-      ]
-    },
-    {
-      "name": "park_walk",
-      "score": 82,
-      "description": "Stroll through a scenic park",
-      "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Great afternoon activity"
+        "Perfect weekend activity"
       ]
     },
     {
       "name": "picnic",
-      "score": 80,
+      "score": 100,
       "description": "Enjoy outdoor meal with friends",
       "reasons": [
         "Perfect sunny weather for outdoor activities",
-        "Temperature (12°C) is manageable"
+        "Perfect weekend activity"
       ]
     },
     {
-      "name": "hiking",
-      "score": 78,
-      "description": "Explore nature trails",
+      "name": "cycling",
+      "score": 100,
+      "description": "Ride through the city or countryside",
       "reasons": [
         "Perfect sunny weather for outdoor activities"
       ]
     },
     {
-      "name": "tennis",
-      "score": 75,
-      "description": "Play tennis with friends",
+      "name": "beach",
+      "score": 100,
+      "description": "Relax and swim at the beach",
       "reasons": [
         "Perfect sunny weather for outdoor activities"
-      ]
-    },
-    {
-      "name": "cafe",
-      "score": 70,
-      "description": "Relax at a cozy café",
-      "reasons": [
-        "Nice outdoor weather"
-      ]
-    },
-    {
-      "name": "restaurant",
-      "score": 68,
-      "description": "Dine at a local restaurant",
-      "reasons": [
-        "Good afternoon activity"
       ]
     },
     {
       "name": "running",
-      "score": 65,
+      "score": 90,
       "description": "Morning or evening jog",
       "reasons": [
-        "Temperature (12°C) is good for running"
+        "Nice weather available outside",
+        "Ideal morning activity"
+      ]
+    },
+    {
+      "name": "park_walk",
+      "score": 85,
+      "description": "Stroll through a scenic park",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 80,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Nice weather available outside",
+        "Perfect weekend activity"
       ]
     },
     {
       "name": "cinema",
-      "score": 55,
+      "score": 75,
       "description": "Watch a movie",
+      "reasons": [
+        "Nice weather available outside",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 75,
+      "description": "Yoga session",
+      "reasons": [
+        "Nice weather available outside",
+        "Ideal morning activity"
+      ]
+    },
+    {
+      "name": "swimming",
+      "score": 70,
+      "description": "Swim at a pool or beach",
       "reasons": [
         "Nice weather available outside"
       ]

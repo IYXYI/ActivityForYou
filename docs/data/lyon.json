@@ -1,103 +1,100 @@
 {
   "city": "lyon",
-  "generated_at": "2025-01-02T10:00:00Z",
+  "generated_at": "2026-01-03T06:37:12.190854Z",
   "weather": {
     "temperature": 6,
     "condition": "rainy",
     "description": "Light rain",
-    "wind_speed_kmh": 15.0,
-    "icon": "10d"
+    "wind_speed_kmh": 15
   },
   "context": {
-    "time_of_day": "afternoon",
-    "day_type": "weekday"
+    "time_of_day": "morning",
+    "day_type": "weekend"
   },
   "recommendations": [
     {
       "name": "cinema",
-      "score": 88,
+      "score": 100,
       "description": "Watch a movie",
       "reasons": [
         "Indoor activity preferred for rainy weather",
-        "Rainy weather reduces outdoor activities"
+        "Perfect weekend activity"
       ]
     },
     {
       "name": "restaurant",
-      "score": 87,
+      "score": 100,
       "description": "Dine at a local restaurant",
       "reasons": [
         "Indoor activity preferred for rainy weather",
-        "Rainy weather reduces outdoor activities"
+        "Perfect weekend activity"
       ]
     },
     {
-      "name": "museum",
-      "score": 85,
-      "description": "Explore art and culture",
+      "name": "running",
+      "score": 100,
+      "description": "Morning or evening jog",
       "reasons": [
         "Indoor activity preferred for rainy weather",
-        "Rainy weather reduces outdoor activities"
-      ]
-    },
-    {
-      "name": "cafe",
-      "score": 83,
-      "description": "Relax at a cozy café",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Good weekday activity"
-      ]
-    },
-    {
-      "name": "gaming",
-      "score": 81,
-      "description": "Video games or board games",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Rainy weather reduces outdoor activities"
-      ]
-    },
-    {
-      "name": "reading",
-      "score": 79,
-      "description": "Read at home or library",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Rainy weather reduces outdoor activities"
+        "Ideal morning activity"
       ]
     },
     {
       "name": "yoga",
-      "score": 68,
+      "score": 100,
       "description": "Yoga session",
       "reasons": [
-        "Good weekday activity"
+        "Indoor activity preferred for rainy weather",
+        "Ideal morning activity"
       ]
     },
     {
-      "name": "park_walk",
-      "score": 25,
-      "description": "Stroll through a scenic park",
+      "name": "tennis",
+      "score": 90,
+      "description": "Play tennis with friends",
       "reasons": [
-        "Rainy weather reduces outdoor activities"
+        "Indoor activity preferred for rainy weather"
       ]
     },
     {
-      "name": "cycling",
-      "score": 20,
-      "description": "Ride through the city or countryside",
+      "name": "gaming",
+      "score": 85,
+      "description": "Video games or board games",
       "reasons": [
-        "Rainy weather reduces outdoor activities"
+        "Indoor activity preferred for rainy weather"
       ]
     },
     {
-      "name": "beach",
-      "score": 5,
-      "description": "Relax and swim at the beach",
+      "name": "museum",
+      "score": 80,
+      "description": "Explore art and culture",
       "reasons": [
-        "Rainy weather reduces outdoor activities",
-        "Cold (6°C) for water activities"
+        "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 75,
+      "description": "Relax at a cozy caf\u00e9",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "swimming",
+      "score": 70,
+      "description": "Swim at a pool or beach",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Cold (6\u00b0C) for water activities"
+      ]
+    },
+    {
+      "name": "reading",
+      "score": 65,
+      "description": "Read at home or library",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
       ]
     }
   ]

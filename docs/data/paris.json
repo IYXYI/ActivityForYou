@@ -1,105 +1,100 @@
 {
   "city": "paris",
-  "generated_at": "2025-01-02T10:00:00Z",
+  "generated_at": "2026-01-03T06:37:12.190587Z",
   "weather": {
     "temperature": 8,
     "condition": "cloudy",
     "description": "Mostly cloudy",
-    "wind_speed_kmh": 12.0,
-    "icon": "02d"
+    "wind_speed_kmh": 12
   },
   "context": {
     "time_of_day": "morning",
-    "day_type": "weekday"
+    "day_type": "weekend"
   },
   "recommendations": [
     {
-      "name": "cafe",
-      "score": 85,
-      "description": "Relax at a cozy café",
-      "reasons": [
-        "Indoor activity preferred for cloudy weather",
-        "Popular morning activity",
-        "Ideal for a weekday start"
-      ]
-    },
-    {
-      "name": "museum",
-      "score": 80,
-      "description": "Explore art and culture",
-      "reasons": [
-        "Indoor activity preferred for cloudy weather",
-        "Great cultural experience"
-      ]
-    },
-    {
-      "name": "yoga",
-      "score": 78,
-      "description": "Yoga session",
-      "reasons": [
-        "Ideal morning activity",
-        "Good weekday activity"
-      ]
-    },
-    {
       "name": "running",
-      "score": 75,
+      "score": 100,
       "description": "Morning or evening jog",
       "reasons": [
-        "Ideal morning activity",
-        "Temperature (8°C) is manageable"
+        "Ideal morning activity"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 90,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Perfect weekend activity"
       ]
     },
     {
       "name": "cinema",
-      "score": 72,
+      "score": 85,
       "description": "Watch a movie",
       "reasons": [
-        "Indoor activity preferred for cloudy weather",
-        "Good weekday activity"
+        "Perfect weekend activity"
       ]
     },
     {
-      "name": "park_walk",
-      "score": 55,
-      "description": "Stroll through a scenic park",
+      "name": "yoga",
+      "score": 85,
+      "description": "Yoga session",
       "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (8°C)"
-      ]
-    },
-    {
-      "name": "cycling",
-      "score": 50,
-      "description": "Ride through the city or countryside",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (8°C)"
+        "Ideal morning activity"
       ]
     },
     {
       "name": "tennis",
-      "score": 48,
+      "score": 75,
       "description": "Play tennis with friends",
       "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal"
+        "Suitable for current weather"
       ]
     },
     {
-      "name": "reading",
-      "score": 45,
-      "description": "Read at home or library",
-      "reasons": [
-        "Indoor activity preferred for cloudy weather"
-      ]
-    },
-    {
-      "name": "beach",
-      "score": 25,
-      "description": "Relax and swim at the beach",
+      "name": "hiking",
+      "score": 70,
+      "description": "Explore nature trails",
       "reasons": [
         "Cloudy weather slightly reduces outdoor appeal",
-        "Cold (8°C) for water activities"
+        "Cool temperature (8\u00b0C)",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "gaming",
+      "score": 70,
+      "description": "Video games or board games",
+      "reasons": [
+        "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "picnic",
+      "score": 65,
+      "description": "Enjoy outdoor meal with friends",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (8\u00b0C)",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "museum",
+      "score": 65,
+      "description": "Explore art and culture",
+      "reasons": [
+        "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 60,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (8\u00b0C)"
       ]
     }
   ]
