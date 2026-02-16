@@ -1,6 +1,6 @@
 {
   "city": "tokyo",
-  "generated_at": "2026-02-15T06:56:54.997557Z",
+  "generated_at": "2026-02-16T07:10:06.329319Z",
   "weather": {
     "temperature": 5,
     "condition": "cloudy",
@@ -9,7 +9,7 @@
   },
   "context": {
     "time_of_day": "morning",
-    "day_type": "weekend"
+    "day_type": "weekday"
   },
   "recommendations": [
     {
@@ -21,27 +21,20 @@
       ]
     },
     {
-      "name": "restaurant",
-      "score": 90,
-      "description": "Dine at a local restaurant",
-      "reasons": [
-        "Perfect weekend activity"
-      ]
-    },
-    {
-      "name": "cinema",
-      "score": 85,
-      "description": "Watch a movie",
-      "reasons": [
-        "Perfect weekend activity"
-      ]
-    },
-    {
       "name": "yoga",
-      "score": 85,
+      "score": 95,
       "description": "Yoga session",
       "reasons": [
-        "Ideal morning activity"
+        "Ideal morning activity",
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 75,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Suitable for current weather"
       ]
     },
     {
@@ -53,13 +46,19 @@
       ]
     },
     {
-      "name": "hiking",
+      "name": "cinema",
       "score": 70,
-      "description": "Explore nature trails",
+      "description": "Watch a movie",
       "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (5\u00b0C)",
-        "Perfect weekend activity"
+        "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 70,
+      "description": "Relax at a cozy caf\u00e9",
+      "reasons": [
+        "Good weekday activity"
       ]
     },
     {
@@ -68,16 +67,6 @@
       "description": "Video games or board games",
       "reasons": [
         "Suitable for current weather"
-      ]
-    },
-    {
-      "name": "picnic",
-      "score": 65,
-      "description": "Enjoy outdoor meal with friends",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (5\u00b0C)",
-        "Perfect weekend activity"
       ]
     },
     {
@@ -92,6 +81,15 @@
       "name": "cycling",
       "score": 60,
       "description": "Ride through the city or countryside",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (5\u00b0C)"
+      ]
+    },
+    {
+      "name": "hiking",
+      "score": 55,
+      "description": "Explore nature trails",
       "reasons": [
         "Cloudy weather slightly reduces outdoor appeal",
         "Cool temperature (5\u00b0C)"
