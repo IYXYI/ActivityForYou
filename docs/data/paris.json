@@ -1,6 +1,6 @@
 {
   "city": "paris",
-  "generated_at": "2026-05-08T07:47:16.346467Z",
+  "generated_at": "2026-05-09T08:01:21.457119Z",
   "weather": {
     "temperature": 8,
     "condition": "cloudy",
@@ -9,7 +9,7 @@
   },
   "context": {
     "time_of_day": "morning",
-    "day_type": "weekday"
+    "day_type": "weekend"
   },
   "recommendations": [
     {
@@ -21,20 +21,27 @@
       ]
     },
     {
-      "name": "yoga",
-      "score": 95,
-      "description": "Yoga session",
+      "name": "restaurant",
+      "score": 90,
+      "description": "Dine at a local restaurant",
       "reasons": [
-        "Ideal morning activity",
-        "Good weekday activity"
+        "Perfect weekend activity"
       ]
     },
     {
-      "name": "restaurant",
-      "score": 75,
-      "description": "Dine at a local restaurant",
+      "name": "cinema",
+      "score": 85,
+      "description": "Watch a movie",
       "reasons": [
-        "Suitable for current weather"
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 85,
+      "description": "Yoga session",
+      "reasons": [
+        "Ideal morning activity"
       ]
     },
     {
@@ -46,19 +53,13 @@
       ]
     },
     {
-      "name": "cinema",
+      "name": "hiking",
       "score": 70,
-      "description": "Watch a movie",
+      "description": "Explore nature trails",
       "reasons": [
-        "Suitable for current weather"
-      ]
-    },
-    {
-      "name": "cafe",
-      "score": 70,
-      "description": "Relax at a cozy caf\u00e9",
-      "reasons": [
-        "Good weekday activity"
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (8\u00b0C)",
+        "Perfect weekend activity"
       ]
     },
     {
@@ -67,6 +68,16 @@
       "description": "Video games or board games",
       "reasons": [
         "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "picnic",
+      "score": 65,
+      "description": "Enjoy outdoor meal with friends",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (8\u00b0C)",
+        "Perfect weekend activity"
       ]
     },
     {
@@ -81,15 +92,6 @@
       "name": "cycling",
       "score": 60,
       "description": "Ride through the city or countryside",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (8\u00b0C)"
-      ]
-    },
-    {
-      "name": "hiking",
-      "score": 55,
-      "description": "Explore nature trails",
       "reasons": [
         "Cloudy weather slightly reduces outdoor appeal",
         "Cool temperature (8\u00b0C)"
