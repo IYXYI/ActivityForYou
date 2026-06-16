@@ -1,6 +1,6 @@
 {
   "city": "tokyo",
-  "generated_at": "2026-06-15T12:23:58.057885Z",
+  "generated_at": "2026-06-16T11:19:05.336571Z",
   "weather": {
     "temperature": 5,
     "condition": "cloudy",
@@ -8,26 +8,25 @@
     "wind_speed_kmh": 10
   },
   "context": {
-    "time_of_day": "afternoon",
+    "time_of_day": "morning",
     "day_type": "weekday"
   },
   "recommendations": [
     {
       "name": "running",
-      "score": 80,
+      "score": 100,
       "description": "Morning or evening jog",
       "reasons": [
-        "Suitable for current weather"
+        "Ideal morning activity"
       ]
     },
     {
-      "name": "cycling",
-      "score": 75,
-      "description": "Ride through the city or countryside",
+      "name": "yoga",
+      "score": 95,
+      "description": "Yoga session",
       "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (5\u00b0C)",
-        "Great afternoon activity"
+        "Ideal morning activity",
+        "Good weekday activity"
       ]
     },
     {
@@ -44,14 +43,6 @@
       "description": "Play tennis with friends",
       "reasons": [
         "Suitable for current weather"
-      ]
-    },
-    {
-      "name": "yoga",
-      "score": 75,
-      "description": "Yoga session",
-      "reasons": [
-        "Good weekday activity"
       ]
     },
     {
@@ -79,21 +70,29 @@
       ]
     },
     {
-      "name": "beach",
-      "score": 65,
-      "description": "Relax and swim at the beach",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cold (5\u00b0C) for water activities",
-        "Great afternoon activity"
-      ]
-    },
-    {
       "name": "museum",
       "score": 65,
       "description": "Explore art and culture",
       "reasons": [
         "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 60,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (5\u00b0C)"
+      ]
+    },
+    {
+      "name": "hiking",
+      "score": 55,
+      "description": "Explore nature trails",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (5\u00b0C)"
       ]
     }
   ]

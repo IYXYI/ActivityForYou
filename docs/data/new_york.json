@@ -1,6 +1,6 @@
 {
   "city": "new_york",
-  "generated_at": "2026-06-15T12:23:58.058135Z",
+  "generated_at": "2026-06-16T11:19:05.336839Z",
   "weather": {
     "temperature": 2,
     "condition": "rainy",
@@ -8,16 +8,27 @@
     "wind_speed_kmh": 20
   },
   "context": {
-    "time_of_day": "afternoon",
+    "time_of_day": "morning",
     "day_type": "weekday"
   },
   "recommendations": [
     {
       "name": "running",
-      "score": 95,
+      "score": 100,
       "description": "Morning or evening jog",
       "reasons": [
-        "Indoor activity preferred for rainy weather"
+        "Indoor activity preferred for rainy weather",
+        "Ideal morning activity"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 100,
+      "description": "Yoga session",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Ideal morning activity",
+        "Good weekday activity"
       ]
     },
     {
@@ -34,15 +45,6 @@
       "description": "Play tennis with friends",
       "reasons": [
         "Indoor activity preferred for rainy weather"
-      ]
-    },
-    {
-      "name": "yoga",
-      "score": 90,
-      "description": "Yoga session",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Good weekday activity"
       ]
     },
     {
