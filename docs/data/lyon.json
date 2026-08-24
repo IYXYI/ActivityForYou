@@ -1,6 +1,6 @@
 {
   "city": "lyon",
-  "generated_at": "2026-08-23T06:46:32.145619Z",
+  "generated_at": "2026-08-24T07:04:48.345933Z",
   "weather": {
     "temperature": 6,
     "condition": "rainy",
@@ -9,27 +9,9 @@
   },
   "context": {
     "time_of_day": "morning",
-    "day_type": "weekend"
+    "day_type": "weekday"
   },
   "recommendations": [
-    {
-      "name": "cinema",
-      "score": 100,
-      "description": "Watch a movie",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Perfect weekend activity"
-      ]
-    },
-    {
-      "name": "restaurant",
-      "score": 100,
-      "description": "Dine at a local restaurant",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Perfect weekend activity"
-      ]
-    },
     {
       "name": "running",
       "score": 100,
@@ -45,7 +27,16 @@
       "description": "Yoga session",
       "reasons": [
         "Indoor activity preferred for rainy weather",
-        "Ideal morning activity"
+        "Ideal morning activity",
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 90,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
       ]
     },
     {
@@ -54,6 +45,23 @@
       "description": "Play tennis with friends",
       "reasons": [
         "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 85,
+      "description": "Watch a movie",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 85,
+      "description": "Relax at a cozy caf\u00e9",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Good weekday activity"
       ]
     },
     {
@@ -68,14 +76,6 @@
       "name": "museum",
       "score": 80,
       "description": "Explore art and culture",
-      "reasons": [
-        "Indoor activity preferred for rainy weather"
-      ]
-    },
-    {
-      "name": "cafe",
-      "score": 75,
-      "description": "Relax at a cozy caf\u00e9",
       "reasons": [
         "Indoor activity preferred for rainy weather"
       ]
