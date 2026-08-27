@@ -1,6 +1,6 @@
 {
   "city": "lyon",
-  "generated_at": "2026-08-26T06:54:37.492177Z",
+  "generated_at": "2026-08-27T17:28:30.662786Z",
   "weather": {
     "temperature": 6,
     "condition": "rainy",
@@ -8,27 +8,16 @@
     "wind_speed_kmh": 15
   },
   "context": {
-    "time_of_day": "morning",
+    "time_of_day": "afternoon",
     "day_type": "weekday"
   },
   "recommendations": [
     {
       "name": "running",
-      "score": 100,
+      "score": 95,
       "description": "Morning or evening jog",
       "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Ideal morning activity"
-      ]
-    },
-    {
-      "name": "yoga",
-      "score": 100,
-      "description": "Yoga session",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Ideal morning activity",
-        "Good weekday activity"
+        "Indoor activity preferred for rainy weather"
       ]
     },
     {
@@ -45,6 +34,15 @@
       "description": "Play tennis with friends",
       "reasons": [
         "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 90,
+      "description": "Yoga session",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Good weekday activity"
       ]
     },
     {

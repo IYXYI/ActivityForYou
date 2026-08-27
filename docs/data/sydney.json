@@ -1,6 +1,6 @@
 {
   "city": "sydney",
-  "generated_at": "2026-08-26T06:54:37.493202Z",
+  "generated_at": "2026-08-27T17:28:30.663676Z",
   "weather": {
     "temperature": 26,
     "condition": "sunny",
@@ -8,7 +8,7 @@
     "wind_speed_kmh": 14
   },
   "context": {
-    "time_of_day": "morning",
+    "time_of_day": "afternoon",
     "day_type": "weekday"
   },
   "recommendations": [
@@ -17,7 +17,8 @@
       "score": 100,
       "description": "Ride through the city or countryside",
       "reasons": [
-        "Perfect sunny weather for outdoor activities"
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity"
       ]
     },
     {
@@ -25,7 +26,17 @@
       "score": 100,
       "description": "Relax and swim at the beach",
       "reasons": [
-        "Perfect sunny weather for outdoor activities"
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity"
+      ]
+    },
+    {
+      "name": "park_walk",
+      "score": 100,
+      "description": "Stroll through a scenic park",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity"
       ]
     },
     {
@@ -46,29 +57,10 @@
     },
     {
       "name": "running",
-      "score": 90,
+      "score": 70,
       "description": "Morning or evening jog",
       "reasons": [
-        "Nice weather available outside",
-        "Ideal morning activity"
-      ]
-    },
-    {
-      "name": "park_walk",
-      "score": 85,
-      "description": "Stroll through a scenic park",
-      "reasons": [
-        "Perfect sunny weather for outdoor activities"
-      ]
-    },
-    {
-      "name": "yoga",
-      "score": 85,
-      "description": "Yoga session",
-      "reasons": [
-        "Nice weather available outside",
-        "Ideal morning activity",
-        "Good weekday activity"
+        "Nice weather available outside"
       ]
     },
     {
@@ -93,6 +85,15 @@
       "description": "Play tennis with friends",
       "reasons": [
         "Nice weather available outside"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 65,
+      "description": "Yoga session",
+      "reasons": [
+        "Nice weather available outside",
+        "Good weekday activity"
       ]
     }
   ]
