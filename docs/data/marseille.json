@@ -1,6 +1,6 @@
 {
   "city": "marseille",
-  "generated_at": "2026-08-27T17:28:30.663104Z",
+  "generated_at": "2026-08-28T18:22:24.816202Z",
   "weather": {
     "temperature": 12,
     "condition": "sunny",
@@ -8,51 +8,81 @@
     "wind_speed_kmh": 8
   },
   "context": {
-    "time_of_day": "afternoon",
+    "time_of_day": "evening",
     "day_type": "weekday"
   },
   "recommendations": [
     {
-      "name": "cycling",
-      "score": 100,
-      "description": "Ride through the city or countryside",
-      "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Great afternoon activity"
-      ]
-    },
-    {
       "name": "beach",
-      "score": 100,
+      "score": 90,
       "description": "Relax and swim at the beach",
       "reasons": [
         "Perfect sunny weather for outdoor activities",
-        "Great afternoon activity"
+        "Limited daylight for outdoor activities"
       ]
     },
     {
-      "name": "park_walk",
-      "score": 100,
-      "description": "Stroll through a scenic park",
+      "name": "cycling",
+      "score": 85,
+      "description": "Ride through the city or countryside",
       "reasons": [
         "Perfect sunny weather for outdoor activities",
-        "Great afternoon activity"
+        "Limited daylight for outdoor activities"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 85,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Nice weather available outside",
+        "Popular evening activity"
       ]
     },
     {
       "name": "hiking",
-      "score": 95,
+      "score": 80,
       "description": "Explore nature trails",
       "reasons": [
-        "Perfect sunny weather for outdoor activities"
+        "Perfect sunny weather for outdoor activities",
+        "Limited daylight for outdoor activities"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 80,
+      "description": "Watch a movie",
+      "reasons": [
+        "Nice weather available outside",
+        "Popular evening activity"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 80,
+      "description": "Relax at a cozy caf\u00e9",
+      "reasons": [
+        "Nice weather available outside",
+        "Popular evening activity",
+        "Good weekday activity"
       ]
     },
     {
       "name": "picnic",
-      "score": 90,
+      "score": 75,
       "description": "Enjoy outdoor meal with friends",
       "reasons": [
-        "Perfect sunny weather for outdoor activities"
+        "Perfect sunny weather for outdoor activities",
+        "Limited daylight for outdoor activities"
+      ]
+    },
+    {
+      "name": "park_walk",
+      "score": 70,
+      "description": "Stroll through a scenic park",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Limited daylight for outdoor activities"
       ]
     },
     {
@@ -69,31 +99,6 @@
       "description": "Swim at a pool or beach",
       "reasons": [
         "Nice weather available outside"
-      ]
-    },
-    {
-      "name": "restaurant",
-      "score": 65,
-      "description": "Dine at a local restaurant",
-      "reasons": [
-        "Nice weather available outside"
-      ]
-    },
-    {
-      "name": "tennis",
-      "score": 65,
-      "description": "Play tennis with friends",
-      "reasons": [
-        "Nice weather available outside"
-      ]
-    },
-    {
-      "name": "yoga",
-      "score": 65,
-      "description": "Yoga session",
-      "reasons": [
-        "Nice weather available outside",
-        "Good weekday activity"
       ]
     }
   ]

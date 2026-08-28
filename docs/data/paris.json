@@ -1,6 +1,6 @@
 {
   "city": "paris",
-  "generated_at": "2026-08-27T17:28:30.662523Z",
+  "generated_at": "2026-08-28T18:22:24.815499Z",
   "weather": {
     "temperature": 8,
     "condition": "cloudy",
@@ -8,32 +8,39 @@
     "wind_speed_kmh": 12
   },
   "context": {
-    "time_of_day": "afternoon",
+    "time_of_day": "evening",
     "day_type": "weekday"
   },
   "recommendations": [
     {
+      "name": "restaurant",
+      "score": 95,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Popular evening activity"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 90,
+      "description": "Watch a movie",
+      "reasons": [
+        "Popular evening activity"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 90,
+      "description": "Relax at a cozy caf\u00e9",
+      "reasons": [
+        "Popular evening activity",
+        "Good weekday activity"
+      ]
+    },
+    {
       "name": "running",
       "score": 80,
       "description": "Morning or evening jog",
-      "reasons": [
-        "Suitable for current weather"
-      ]
-    },
-    {
-      "name": "cycling",
-      "score": 75,
-      "description": "Ride through the city or countryside",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (8\u00b0C)",
-        "Great afternoon activity"
-      ]
-    },
-    {
-      "name": "restaurant",
-      "score": 75,
-      "description": "Dine at a local restaurant",
       "reasons": [
         "Suitable for current weather"
       ]
@@ -55,22 +62,6 @@
       ]
     },
     {
-      "name": "cinema",
-      "score": 70,
-      "description": "Watch a movie",
-      "reasons": [
-        "Suitable for current weather"
-      ]
-    },
-    {
-      "name": "cafe",
-      "score": 70,
-      "description": "Relax at a cozy caf\u00e9",
-      "reasons": [
-        "Good weekday activity"
-      ]
-    },
-    {
       "name": "gaming",
       "score": 70,
       "description": "Video games or board games",
@@ -79,19 +70,25 @@
       ]
     },
     {
-      "name": "beach",
-      "score": 65,
-      "description": "Relax and swim at the beach",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cold (8\u00b0C) for water activities",
-        "Great afternoon activity"
-      ]
-    },
-    {
       "name": "museum",
       "score": 65,
       "description": "Explore art and culture",
+      "reasons": [
+        "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "swimming",
+      "score": 55,
+      "description": "Swim at a pool or beach",
+      "reasons": [
+        "Cold (8\u00b0C) for water activities"
+      ]
+    },
+    {
+      "name": "reading",
+      "score": 50,
+      "description": "Read at home or library",
       "reasons": [
         "Suitable for current weather"
       ]
