@@ -1,6 +1,6 @@
 {
   "city": "sydney",
-  "generated_at": "2026-08-28T18:22:24.816903Z",
+  "generated_at": "2026-08-29T12:30:11.071578Z",
   "weather": {
     "temperature": 26,
     "condition": "sunny",
@@ -8,81 +8,71 @@
     "wind_speed_kmh": 14
   },
   "context": {
-    "time_of_day": "evening",
-    "day_type": "weekday"
+    "time_of_day": "afternoon",
+    "day_type": "weekend"
   },
   "recommendations": [
     {
-      "name": "beach",
-      "score": 90,
-      "description": "Relax and swim at the beach",
-      "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Limited daylight for outdoor activities"
-      ]
-    },
-    {
-      "name": "cycling",
-      "score": 85,
-      "description": "Ride through the city or countryside",
-      "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Limited daylight for outdoor activities"
-      ]
-    },
-    {
-      "name": "restaurant",
-      "score": 85,
-      "description": "Dine at a local restaurant",
-      "reasons": [
-        "Nice weather available outside",
-        "Popular evening activity"
-      ]
-    },
-    {
       "name": "hiking",
-      "score": 80,
+      "score": 100,
       "description": "Explore nature trails",
       "reasons": [
         "Perfect sunny weather for outdoor activities",
-        "Limited daylight for outdoor activities"
-      ]
-    },
-    {
-      "name": "cinema",
-      "score": 80,
-      "description": "Watch a movie",
-      "reasons": [
-        "Nice weather available outside",
-        "Popular evening activity"
-      ]
-    },
-    {
-      "name": "cafe",
-      "score": 80,
-      "description": "Relax at a cozy caf\u00e9",
-      "reasons": [
-        "Nice weather available outside",
-        "Popular evening activity",
-        "Good weekday activity"
+        "Perfect weekend activity"
       ]
     },
     {
       "name": "picnic",
-      "score": 75,
+      "score": 100,
       "description": "Enjoy outdoor meal with friends",
       "reasons": [
         "Perfect sunny weather for outdoor activities",
-        "Limited daylight for outdoor activities"
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 100,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity"
+      ]
+    },
+    {
+      "name": "beach",
+      "score": 100,
+      "description": "Relax and swim at the beach",
+      "reasons": [
+        "Perfect sunny weather for outdoor activities",
+        "Great afternoon activity"
       ]
     },
     {
       "name": "park_walk",
-      "score": 70,
+      "score": 100,
       "description": "Stroll through a scenic park",
       "reasons": [
         "Perfect sunny weather for outdoor activities",
-        "Limited daylight for outdoor activities"
+        "Great afternoon activity"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 80,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Nice weather available outside",
+        "Perfect weekend activity"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 75,
+      "description": "Watch a movie",
+      "reasons": [
+        "Nice weather available outside",
+        "Perfect weekend activity"
       ]
     },
     {
@@ -97,6 +87,14 @@
       "name": "swimming",
       "score": 70,
       "description": "Swim at a pool or beach",
+      "reasons": [
+        "Nice weather available outside"
+      ]
+    },
+    {
+      "name": "tennis",
+      "score": 65,
+      "description": "Play tennis with friends",
       "reasons": [
         "Nice weather available outside"
       ]

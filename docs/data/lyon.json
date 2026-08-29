@@ -1,6 +1,6 @@
 {
   "city": "lyon",
-  "generated_at": "2026-08-28T18:22:24.815838Z",
+  "generated_at": "2026-08-29T12:30:11.070430Z",
   "weather": {
     "temperature": 6,
     "condition": "rainy",
@@ -8,8 +8,8 @@
     "wind_speed_kmh": 15
   },
   "context": {
-    "time_of_day": "evening",
-    "day_type": "weekday"
+    "time_of_day": "afternoon",
+    "day_type": "weekend"
   },
   "recommendations": [
     {
@@ -18,7 +18,7 @@
       "description": "Watch a movie",
       "reasons": [
         "Indoor activity preferred for rainy weather",
-        "Popular evening activity"
+        "Perfect weekend activity"
       ]
     },
     {
@@ -27,17 +27,7 @@
       "description": "Dine at a local restaurant",
       "reasons": [
         "Indoor activity preferred for rainy weather",
-        "Popular evening activity"
-      ]
-    },
-    {
-      "name": "cafe",
-      "score": 100,
-      "description": "Relax at a cozy caf\u00e9",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Popular evening activity",
-        "Good weekday activity"
+        "Perfect weekend activity"
       ]
     },
     {
@@ -57,15 +47,6 @@
       ]
     },
     {
-      "name": "yoga",
-      "score": 90,
-      "description": "Yoga session",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Good weekday activity"
-      ]
-    },
-    {
       "name": "gaming",
       "score": 85,
       "description": "Video games or board games",
@@ -77,6 +58,22 @@
       "name": "museum",
       "score": 80,
       "description": "Explore art and culture",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 80,
+      "description": "Yoga session",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 75,
+      "description": "Relax at a cozy caf\u00e9",
       "reasons": [
         "Indoor activity preferred for rainy weather"
       ]
