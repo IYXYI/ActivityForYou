@@ -1,6 +1,6 @@
 {
   "city": "tokyo",
-  "generated_at": "2026-08-29T12:30:11.071043Z",
+  "generated_at": "2026-08-30T11:34:17.488293Z",
   "weather": {
     "temperature": 5,
     "condition": "cloudy",
@@ -8,10 +8,18 @@
     "wind_speed_kmh": 10
   },
   "context": {
-    "time_of_day": "afternoon",
+    "time_of_day": "morning",
     "day_type": "weekend"
   },
   "recommendations": [
+    {
+      "name": "running",
+      "score": 100,
+      "description": "Morning or evening jog",
+      "reasons": [
+        "Ideal morning activity"
+      ]
+    },
     {
       "name": "restaurant",
       "score": 90,
@@ -29,21 +37,11 @@
       ]
     },
     {
-      "name": "running",
-      "score": 80,
-      "description": "Morning or evening jog",
+      "name": "yoga",
+      "score": 85,
+      "description": "Yoga session",
       "reasons": [
-        "Suitable for current weather"
-      ]
-    },
-    {
-      "name": "cycling",
-      "score": 75,
-      "description": "Ride through the city or countryside",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (5\u00b0C)",
-        "Great afternoon activity"
+        "Ideal morning activity"
       ]
     },
     {
@@ -83,21 +81,20 @@
       ]
     },
     {
-      "name": "beach",
-      "score": 65,
-      "description": "Relax and swim at the beach",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cold (5\u00b0C) for water activities",
-        "Great afternoon activity"
-      ]
-    },
-    {
       "name": "museum",
       "score": 65,
       "description": "Explore art and culture",
       "reasons": [
         "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "cycling",
+      "score": 60,
+      "description": "Ride through the city or countryside",
+      "reasons": [
+        "Cloudy weather slightly reduces outdoor appeal",
+        "Cool temperature (5\u00b0C)"
       ]
     }
   ]

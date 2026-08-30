@@ -1,6 +1,6 @@
 {
   "city": "new_york",
-  "generated_at": "2026-08-29T12:30:11.071302Z",
+  "generated_at": "2026-08-30T11:34:17.488408Z",
   "weather": {
     "temperature": 2,
     "condition": "rainy",
@@ -8,7 +8,7 @@
     "wind_speed_kmh": 20
   },
   "context": {
-    "time_of_day": "afternoon",
+    "time_of_day": "morning",
     "day_type": "weekend"
   },
   "recommendations": [
@@ -32,10 +32,20 @@
     },
     {
       "name": "running",
-      "score": 95,
+      "score": 100,
       "description": "Morning or evening jog",
       "reasons": [
-        "Indoor activity preferred for rainy weather"
+        "Indoor activity preferred for rainy weather",
+        "Ideal morning activity"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 100,
+      "description": "Yoga session",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Ideal morning activity"
       ]
     },
     {
@@ -58,14 +68,6 @@
       "name": "museum",
       "score": 80,
       "description": "Explore art and culture",
-      "reasons": [
-        "Indoor activity preferred for rainy weather"
-      ]
-    },
-    {
-      "name": "yoga",
-      "score": 80,
-      "description": "Yoga session",
       "reasons": [
         "Indoor activity preferred for rainy weather"
       ]

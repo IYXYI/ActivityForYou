@@ -1,6 +1,6 @@
 {
   "city": "marseille",
-  "generated_at": "2026-08-29T12:30:11.070777Z",
+  "generated_at": "2026-08-30T11:34:17.488173Z",
   "weather": {
     "temperature": 12,
     "condition": "sunny",
@@ -8,7 +8,7 @@
     "wind_speed_kmh": 8
   },
   "context": {
-    "time_of_day": "afternoon",
+    "time_of_day": "morning",
     "day_type": "weekend"
   },
   "recommendations": [
@@ -35,8 +35,7 @@
       "score": 100,
       "description": "Ride through the city or countryside",
       "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Great afternoon activity"
+        "Perfect sunny weather for outdoor activities"
       ]
     },
     {
@@ -44,17 +43,24 @@
       "score": 100,
       "description": "Relax and swim at the beach",
       "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Great afternoon activity"
+        "Perfect sunny weather for outdoor activities"
+      ]
+    },
+    {
+      "name": "running",
+      "score": 90,
+      "description": "Morning or evening jog",
+      "reasons": [
+        "Nice weather available outside",
+        "Ideal morning activity"
       ]
     },
     {
       "name": "park_walk",
-      "score": 100,
+      "score": 85,
       "description": "Stroll through a scenic park",
       "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Great afternoon activity"
+        "Perfect sunny weather for outdoor activities"
       ]
     },
     {
@@ -76,25 +82,18 @@
       ]
     },
     {
-      "name": "running",
-      "score": 70,
-      "description": "Morning or evening jog",
+      "name": "yoga",
+      "score": 75,
+      "description": "Yoga session",
       "reasons": [
-        "Nice weather available outside"
+        "Nice weather available outside",
+        "Ideal morning activity"
       ]
     },
     {
       "name": "swimming",
       "score": 70,
       "description": "Swim at a pool or beach",
-      "reasons": [
-        "Nice weather available outside"
-      ]
-    },
-    {
-      "name": "tennis",
-      "score": 65,
-      "description": "Play tennis with friends",
       "reasons": [
         "Nice weather available outside"
       ]
