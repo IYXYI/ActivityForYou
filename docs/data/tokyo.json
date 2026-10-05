@@ -1,6 +1,6 @@
 {
   "city": "tokyo",
-  "generated_at": "2026-10-04T12:01:22.201116Z",
+  "generated_at": "2026-10-05T14:03:43.291834Z",
   "weather": {
     "temperature": 5,
     "condition": "cloudy",
@@ -9,25 +9,9 @@
   },
   "context": {
     "time_of_day": "afternoon",
-    "day_type": "weekend"
+    "day_type": "weekday"
   },
   "recommendations": [
-    {
-      "name": "restaurant",
-      "score": 90,
-      "description": "Dine at a local restaurant",
-      "reasons": [
-        "Perfect weekend activity"
-      ]
-    },
-    {
-      "name": "cinema",
-      "score": 85,
-      "description": "Watch a movie",
-      "reasons": [
-        "Perfect weekend activity"
-      ]
-    },
     {
       "name": "running",
       "score": 80,
@@ -47,6 +31,14 @@
       ]
     },
     {
+      "name": "restaurant",
+      "score": 75,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Suitable for current weather"
+      ]
+    },
+    {
       "name": "tennis",
       "score": 75,
       "description": "Play tennis with friends",
@@ -55,13 +47,27 @@
       ]
     },
     {
-      "name": "hiking",
-      "score": 70,
-      "description": "Explore nature trails",
+      "name": "yoga",
+      "score": 75,
+      "description": "Yoga session",
       "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (5\u00b0C)",
-        "Perfect weekend activity"
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 70,
+      "description": "Watch a movie",
+      "reasons": [
+        "Suitable for current weather"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 70,
+      "description": "Relax at a cozy caf\u00e9",
+      "reasons": [
+        "Good weekday activity"
       ]
     },
     {
@@ -70,16 +76,6 @@
       "description": "Video games or board games",
       "reasons": [
         "Suitable for current weather"
-      ]
-    },
-    {
-      "name": "picnic",
-      "score": 65,
-      "description": "Enjoy outdoor meal with friends",
-      "reasons": [
-        "Cloudy weather slightly reduces outdoor appeal",
-        "Cool temperature (5\u00b0C)",
-        "Perfect weekend activity"
       ]
     },
     {

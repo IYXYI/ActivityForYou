@@ -1,6 +1,6 @@
 {
   "city": "new_york",
-  "generated_at": "2026-10-04T12:01:22.201282Z",
+  "generated_at": "2026-10-05T14:03:43.291982Z",
   "weather": {
     "temperature": 2,
     "condition": "rainy",
@@ -9,31 +9,21 @@
   },
   "context": {
     "time_of_day": "afternoon",
-    "day_type": "weekend"
+    "day_type": "weekday"
   },
   "recommendations": [
-    {
-      "name": "cinema",
-      "score": 100,
-      "description": "Watch a movie",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Perfect weekend activity"
-      ]
-    },
-    {
-      "name": "restaurant",
-      "score": 100,
-      "description": "Dine at a local restaurant",
-      "reasons": [
-        "Indoor activity preferred for rainy weather",
-        "Perfect weekend activity"
-      ]
-    },
     {
       "name": "running",
       "score": 95,
       "description": "Morning or evening jog",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "restaurant",
+      "score": 90,
+      "description": "Dine at a local restaurant",
       "reasons": [
         "Indoor activity preferred for rainy weather"
       ]
@@ -44,6 +34,32 @@
       "description": "Play tennis with friends",
       "reasons": [
         "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 90,
+      "description": "Yoga session",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Good weekday activity"
+      ]
+    },
+    {
+      "name": "cinema",
+      "score": 85,
+      "description": "Watch a movie",
+      "reasons": [
+        "Indoor activity preferred for rainy weather"
+      ]
+    },
+    {
+      "name": "cafe",
+      "score": 85,
+      "description": "Relax at a cozy caf\u00e9",
+      "reasons": [
+        "Indoor activity preferred for rainy weather",
+        "Good weekday activity"
       ]
     },
     {
@@ -58,22 +74,6 @@
       "name": "museum",
       "score": 80,
       "description": "Explore art and culture",
-      "reasons": [
-        "Indoor activity preferred for rainy weather"
-      ]
-    },
-    {
-      "name": "yoga",
-      "score": 80,
-      "description": "Yoga session",
-      "reasons": [
-        "Indoor activity preferred for rainy weather"
-      ]
-    },
-    {
-      "name": "cafe",
-      "score": 75,
-      "description": "Relax at a cozy caf\u00e9",
       "reasons": [
         "Indoor activity preferred for rainy weather"
       ]

@@ -1,6 +1,6 @@
 {
   "city": "marseille",
-  "generated_at": "2026-10-04T12:01:22.200936Z",
+  "generated_at": "2026-10-05T14:03:43.291682Z",
   "weather": {
     "temperature": 12,
     "condition": "sunny",
@@ -9,27 +9,9 @@
   },
   "context": {
     "time_of_day": "afternoon",
-    "day_type": "weekend"
+    "day_type": "weekday"
   },
   "recommendations": [
-    {
-      "name": "hiking",
-      "score": 100,
-      "description": "Explore nature trails",
-      "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Perfect weekend activity"
-      ]
-    },
-    {
-      "name": "picnic",
-      "score": 100,
-      "description": "Enjoy outdoor meal with friends",
-      "reasons": [
-        "Perfect sunny weather for outdoor activities",
-        "Perfect weekend activity"
-      ]
-    },
     {
       "name": "cycling",
       "score": 100,
@@ -58,21 +40,19 @@
       ]
     },
     {
-      "name": "restaurant",
-      "score": 80,
-      "description": "Dine at a local restaurant",
+      "name": "hiking",
+      "score": 95,
+      "description": "Explore nature trails",
       "reasons": [
-        "Nice weather available outside",
-        "Perfect weekend activity"
+        "Perfect sunny weather for outdoor activities"
       ]
     },
     {
-      "name": "cinema",
-      "score": 75,
-      "description": "Watch a movie",
+      "name": "picnic",
+      "score": 90,
+      "description": "Enjoy outdoor meal with friends",
       "reasons": [
-        "Nice weather available outside",
-        "Perfect weekend activity"
+        "Perfect sunny weather for outdoor activities"
       ]
     },
     {
@@ -92,11 +72,28 @@
       ]
     },
     {
+      "name": "restaurant",
+      "score": 65,
+      "description": "Dine at a local restaurant",
+      "reasons": [
+        "Nice weather available outside"
+      ]
+    },
+    {
       "name": "tennis",
       "score": 65,
       "description": "Play tennis with friends",
       "reasons": [
         "Nice weather available outside"
+      ]
+    },
+    {
+      "name": "yoga",
+      "score": 65,
+      "description": "Yoga session",
+      "reasons": [
+        "Nice weather available outside",
+        "Good weekday activity"
       ]
     }
   ]
